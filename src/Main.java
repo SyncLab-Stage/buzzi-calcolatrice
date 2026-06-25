@@ -6,18 +6,11 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Valore A: ");
+        // user input
+        System.out.print("Valore a: ");
         double a = scanner.nextDouble();
 
-        System.out.print("Valore B: ");
+        System.out.print("Valore b: ");
         double b = scanner.nextDouble();
-
-        try {
-            System.out.println(calcolatrice.quoziente(a, b));
-        } catch (DivisionePerZeroException e) {
-            System.out.println(e.getMessage());
-        }
-
-        System.out.println();
     }
 }
