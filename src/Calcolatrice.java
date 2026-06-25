@@ -10,6 +10,10 @@ public class Calcolatrice {
         return a * b;
     }
     public double quoziente(double a, double b) {
-        return a / b;
+        if (b == 0){
+            throw new DivisionePerZeroException("Impossibile dividere per zero.");
+        } else {
+            return a / b;
+        }
     }
 }
