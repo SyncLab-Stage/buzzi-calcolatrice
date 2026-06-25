@@ -12,6 +12,8 @@ Esercizio 1 del piano formativo. Calcolatrice interattiva con le quattro operazi
 
 All'avvio il programma mostra un menu con le quattro operazioni. L'utente sceglie l'operazione, inserisce i due valori, e ottiene il risultato. Il loop continua finché non viene selezionata l'opzione 0 (Uscita).
 
+![example gif](assets/example.gif)
+
 ## Note
 
 La divisione per zero in Java con `double` non lancia un'eccezione automaticamente — restituisce `Infinity`. Per questo il controllo è esplicito nel metodo `quoziente`, che lancia `DivisionePerZeroException` prima di eseguire il calcolo.
