@@ -10,6 +10,20 @@ public class Main {
         int opzione = 0;
         double a = 0;
         double b = 0;
+
+        System.out.println("╔══════════════════════╗");
+        System.out.println("║     CALCOLATRICE     ║");
+        System.out.println("╠══════════════════════╣");
+        System.out.println("║  ┌───────────────┐   ║");
+        System.out.println("║  │  0.           │   ║");
+        System.out.println("║  ├───────────────┤   ║");
+        System.out.println("║  │ 7  8  9  ÷    │   ║");
+        System.out.println("║  │ 4  5  6  ×    │   ║");
+        System.out.println("║  │ 1  2  3  -    │   ║");
+        System.out.println("║  │ 0  .  =  +    │   ║");
+        System.out.println("║  └───────────────┘   ║");
+        System.out.println("╚══════════════════════╝");
+
         // menu
         System.out.println("Selezionare l'opzione del calcolo da eseguire");
 
